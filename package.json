@@ -38,23 +38,24 @@
   },
   "dependencies": {
     "async": "0.9.x",
-    "safe": ">=0.1.2",
-    "lodash": "2.4.x"
+    "fs-extra": "^0.21.0",
+    "lodash": "2.4.x",
+    "safe": ">=0.1.2"
   },
   "scripts": {
-      "test": "./test.sh"
+    "test": "./test.sh"
   },
-  "optionalDependencies":{
-    "bson":"0.2.x"
+  "optionalDependencies": {
+    "bson": "0.2.x"
   },
   "devDependencies": {
-	"csv": "0.3.x",
-	"mongodb": "1.4.x",
-	"temp": "0.4.x",
-	"lorem-ipsum":"1.0.x",
-	"optimist":"0.6.x",
-	"step":"0.0.x",
-	"benchmark":"1.0.x",
-	"mocha":"1.21.x"
+    "csv": "0.3.x",
+    "mongodb": "1.4.x",
+    "temp": "0.4.x",
+    "lorem-ipsum": "1.0.x",
+    "optimist": "0.6.x",
+    "step": "0.0.x",
+    "benchmark": "1.0.x",
+    "mocha": "1.21.x"
   }
 }
